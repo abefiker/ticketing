@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import { OrderStatus } from '@abticketing/common';
 import { TicketDoc } from './ticket';
 export { OrderStatus };
-// import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
+import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
 // an interface that describes the properties
 // that are required to create a new Order
 interface OrderAttributes {
@@ -24,6 +24,7 @@ interface OrderDocument extends mongoose.Document<any> {
   expiresAt: Date;
   userId: string;
   ticket: TicketDoc;
+  version:number
 }
 
 const OrderSchema = new mongoose.Schema(
@@ -56,8 +57,8 @@ const OrderSchema = new mongoose.Schema(
     },
   }
 );
-// OrderSchema.set('versionKey', 'version');
-// OrderSchema.plugin(updateIfCurrentPlugin);
+OrderSchema.set('versionKey', 'version');
+OrderSchema.plugin(updateIfCurrentPlugin);
 OrderSchema.statics.build = (attributes: OrderAttributes) => {
   return new Order(attributes);
 };
