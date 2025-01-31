@@ -3,6 +3,7 @@ import { OrderStatus } from '@abticketing/common';
 import { Order } from './order-model';
 
 interface TicketAttrs {
+  id: string;
   title: string;
   price: number;
 }
@@ -29,7 +30,11 @@ const schema = new mongoose.Schema(
   }
 );
 schema.statics.build = (atts: TicketAttrs) => {
-  return new Ticket(atts);
+  return new Ticket({
+    _id: atts.id,
+    title: atts.title,
+    price: atts.price,
+  });
 };
 // Run Query to look at all orders. Find an order where the ticket
 // is the ticket  we just found *and* the orders status is *not* cancelled.
