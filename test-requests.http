@@ -1,0 +1,16 @@
+POST https://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+  "email": "testuser2@example.com",
+  "password": "password123"
+}
+###
+POST http://ticketing.dev/api/tickets
+Content-Type: application/json
+Cookie: session=eyJqd3QiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJalkzT1dJNE5tVmlaV1kxT1Rkak5qSXdORFJqTUdaaFlpSXNJbVZ0WVdsc0lqb2lkR1Z6ZEhWelpYSXlRR1Y0WVcxd2JHVXVZMjl0SWl3aWFXRjBJam94TnpNNE1qUTFPRFkzZlEuLWZJU1NyWnlVb1BMMUsxQ0dKMHI1YWJBdDBuYU1nbmNsQ2x6YVp3a1J3RSJ9
+
+{
+  "title": "New Concert Ticket",
+  "price": 50
+}
