@@ -2,7 +2,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import 'express-async-errors';
 import cookieSession from 'cookie-session';
 import { json } from 'body-parser';
-import { currentUser, errorHandler, NotFoundError } from '@abticketing/common';
+import { currentUser, errorHandler, NotFoundError,logger } from '@abticketing/common';
 import { createTicketRouter } from './routes/new';
 import { showTicketRouter } from './routes/show';
 import { indexTicketRouter } from './routes/index';
@@ -21,6 +21,7 @@ app.use(
 
 
 app.use(currentUser);
+logger.info('Starting Ticket service...');
 app.use(indexTicketRouter);
 app.use(showTicketRouter);
 app.use(createTicketRouter);

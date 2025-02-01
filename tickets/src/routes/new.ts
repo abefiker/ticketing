@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { body } from 'express-validator';
-import { requireAuth, validateRequest } from '@abticketing/common';
+import { requireAuth, validateRequest, logger } from '@abticketing/common';
 import { Ticket } from '../models/ticket-model';
 import { TicketCreatedPublisher } from '../events/publisher/ticket-created-publisher';
 import { natsWrapper } from '../nats-wrapper';
@@ -17,6 +17,7 @@ router.post(
   requireAuth,
   async (req: Request, res: Response, next: NextFunction) => {
     const { title, price } = req.body;
+    logger.info('Creating a new ticket', { title, price });
     const ticket = Ticket.build({
       title,
       price,
@@ -27,8 +28,8 @@ router.post(
       id: ticket.id,
       title: ticket.title,
       price: ticket.price,
-      userId: ticket.userId, 
-      version : ticket.version
+      userId: ticket.userId,
+      version: ticket.version,
     });
     res.status(201).send(ticket);
   }
