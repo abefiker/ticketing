@@ -3,14 +3,15 @@ import {
   Listener,
   NotFoundError,
   Subjects,
-  TicketUpdateEvent,
-} from '@abticketing/common';
+  TicketUpdatedEvent,
+} from '@abticketing21/common';
+
 import { queueGroupName } from './queue-group-name';
 import { Ticket } from '../../models/ticket';
-export class TicketUpdatedListener extends Listener<TicketUpdateEvent> {
+export class TicketUpdatedListener extends Listener<TicketUpdatedEvent> {
   subject: Subjects.TicketUpdated = Subjects.TicketUpdated;
   queueGroupName = queueGroupName;
-  async onMessage(data: TicketUpdateEvent['data'], msg: Message) {
+  async onMessage(data: TicketUpdatedEvent['data'], msg: Message) {
     const ticket = await Ticket.findByEvent(data);
     if (!ticket) {
       throw new NotFoundError();

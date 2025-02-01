@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { body } from 'express-validator';
-import { requireAuth, validateRequest, logger } from '@abticketing/common';
+import { requireAuth, validateRequest, logger } from '@abticketing21/common';
 import { Ticket } from '../models/ticket-model';
 import { TicketCreatedPublisher } from '../events/publisher/ticket-created-publisher';
 import { natsWrapper } from '../nats-wrapper';

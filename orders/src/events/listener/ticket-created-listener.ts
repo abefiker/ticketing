@@ -1,4 +1,4 @@
-import { Listener, Subjects, TicketCreatedEvent } from '@abticketing/common';
+import { Listener, Subjects, TicketCreatedEvent } from '@abticketing21/common';
 import { Message } from 'node-nats-streaming';
 import { Ticket } from '../../models/ticket';
 import { queueGroupName } from './queue-group-name';
