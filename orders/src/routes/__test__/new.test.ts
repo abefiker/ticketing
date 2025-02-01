@@ -3,7 +3,7 @@ import { app } from '../../app';
 import { Order } from '../../models/order-model';
 import { Ticket } from '../../models/ticket';
 import { natsWrapper } from '../../nats-wrapper';
-import { OrderStatus } from '@abticketing/common';
+import { OrderStatus } from '@abticketing21/common';
 import mongoose from 'mongoose';
 
 // it('has a route handler listening to /api/orders for POST requests', async () => {
@@ -96,10 +96,11 @@ it('returns an error if the tickets does not exist', async () => {
     .post('/api/orders')
     .set('Cookie', global.signin())
     .send({ ticketId })
-    .expect(204);
+    .expect(404);
 });
 it('returns an error if the tickets it already reserved', async () => {
   const ticket = Ticket.build({
+    id:new mongoose.Types.ObjectId().toHexString(),
     title: 'concert',
     price: 20,
   });
@@ -115,10 +116,11 @@ it('returns an error if the tickets it already reserved', async () => {
     .post('/api/tickets')
     .set('Cookie', global.signin())
     .send({ ticketId: ticket.id })
-    .expect(204);
+    .expect(404);
 });
 it('reserve a ticket', async () => {
   const ticket = Ticket.build({
+    id:new mongoose.Types.ObjectId().toHexString(),
     title: 'concert',
     price: 20,
   });
@@ -131,6 +133,7 @@ it('reserve a ticket', async () => {
 });
 it('emits an order created event', async () => {
   const ticket = Ticket.build({
+    id:new mongoose.Types.ObjectId().toHexString(),
     title: 'concert',
     price: 100,
   });

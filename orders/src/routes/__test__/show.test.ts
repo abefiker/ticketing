@@ -28,6 +28,7 @@ import mongoose from 'mongoose';
 it('return an error if one users tries to fetch other user order', async () => {
   // Create a ticket
   const ticket = Ticket.build({
+    id:new mongoose.Types.ObjectId().toHexString(),
     title: 'concert',
     price: 20,
   });
