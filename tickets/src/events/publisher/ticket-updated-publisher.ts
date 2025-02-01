@@ -1,5 +1,5 @@
-import { Subjects, TicketUpdateEvent, Publisher } from '@abticketing/common';
+import { Subjects, TicketUpdatedEvent, Publisher } from '@abticketing21/common';
 
-export class TicketUpdatedPublisher extends Publisher<TicketUpdateEvent> {
-  subject: Subjects.TicketUpdated = Subjects.TicketUpdated;
+export class TicketUpdatedPublisher extends Publisher<TicketUpdatedEvent> {
+  subjects: Subjects.TicketUpdated = Subjects.TicketUpdated;
 }

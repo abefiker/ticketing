@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
-import { OrderStatus } from '@abticketing/common';
+import { OrderStatus } from '@abticketing21/common';
 import { Order } from './order-model';
 
 interface TicketAttrs {

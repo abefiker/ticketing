@@ -8,7 +8,7 @@ import {
   NotFoundError,
   requireAuth,
   validateRequest,
-} from '@abticketing/common';
+} from '@abticketing21/common';
 
 const router = express.Router();
 

@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { Order } from '../models/order-model';
-import { NotFoundError, requireAuth } from '@abticketing/common';
+import { NotFoundError, requireAuth } from '@abticketing21/common';
 const router = express.Router();
 
 router.get(

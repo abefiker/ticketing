@@ -1,5 +1,5 @@
-import { Subjects, OrderCreatedEvent, Publisher } from '@abticketing/common';
+import { Subjects, OrderCreatedEvent, Publisher } from '@abticketing21/common';
 
 export class OrderCreatedPublisher extends Publisher<OrderCreatedEvent> {
-  subject: Subjects.OrderCreated= Subjects.OrderCreated;
+  subjects: Subjects.OrderCreated= Subjects.OrderCreated;
 }

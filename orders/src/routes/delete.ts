@@ -5,7 +5,7 @@ import {
   OrderStatus,
   NotFoundError,
   NotAuthorizedError,
-} from '@abticketing/common';
+} from '@abticketing21/common';
 import { OrderCancelledPublisher } from '../events/publisher/order-cancelled-publisher';
 import { natsWrapper } from '../nats-wrapper';
 
@@ -26,10 +26,10 @@ router.delete(
     await order.save();
     new OrderCancelledPublisher(natsWrapper.client).publish({
       id: order.id,
-      version: order.version,
       ticket: {
         id: order.ticket.id,
       },
+      version: 0
     });
     res.status(204).send({}); // No Content
   }

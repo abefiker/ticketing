@@ -7,7 +7,7 @@ import {
   NotFoundError,
   OrderStatus,
   BadRequestError,
-} from '@abticketing/common';
+} from '@abticketing21/common';
 import { Order } from '../models/order-model';
 import { OrderCreatedPublisher } from '../events/publisher/order-created-publisher';
 import { natsWrapper } from '../nats-wrapper';
