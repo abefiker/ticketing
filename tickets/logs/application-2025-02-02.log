@@ -1,0 +1,120 @@
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:18:15.543Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:18:19.176Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:21.738Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:22.047Z","title":"fnlfnw"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:23.094Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:23.390Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:23.507Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:23.860Z","title":"updated title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:18:33.181Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:18:34.211Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:37.769Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:37.831Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:37.854Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:18:38.991Z","title":"title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:22:34.289Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:22:35.632Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:37.502Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:37.688Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:37.797Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:37.934Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:38.979Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:39.090Z","title":"fnlfnw"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:22:43.288Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:22:43.892Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:45.110Z","title":"title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:45.708Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:45.846Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:22:45.862Z","title":"Test ticket"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:54:19.234Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:54:20.557Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.395Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.609Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.687Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.776Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.843Z","title":"fnlfnw"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:24.962Z","title":"updated title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:54:35.667Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 11:54:35.991Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:38.234Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:38.303Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:38.305Z","title":"title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 11:54:38.368Z","title":"Test ticket"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:03:37.438Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:03:38.037Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:40.668Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:40.832Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:40.930Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:41.110Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:41.339Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:41.446Z","title":"fnlfnw"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:03:43.328Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:45.521Z","title":"title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:03:46.084Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:49.697Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:49.749Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:03:49.769Z","title":"Test ticket"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:05:26.671Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:05:27.134Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:29.262Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:29.406Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:29.517Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:29.651Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:29.914Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:30.204Z","title":"fnlfnw"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:05:35.329Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:05:36.117Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:37.510Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:37.559Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:37.585Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:05:37.738Z","title":"title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:08:21.607Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:08:21.728Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:25.887Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:26.324Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:26.513Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:26.692Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:27.166Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:27.288Z","title":"fnlfnw"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:08:34.105Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:08:34.517Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:36.730Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:36.783Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:36.782Z","title":"title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 12:08:36.825Z","title":"Test ticket"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:11:40.376Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 12:11:40.961Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:52:09.949Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:52:10.308Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:52:14.539Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:52:14.629Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:52:14.709Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:52:14.696Z","title":"title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:54:44.483Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:54:44.970Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:46.682Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:46.778Z","title":"fnlfnw"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:48.143Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:48.250Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:48.322Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:48.424Z","title":"updated title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:54:50.733Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:54:51.109Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:52.231Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:52.269Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:52.284Z","title":"title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:54:52.295Z","title":"Test ticket"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:56:12.183Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:56:12.836Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:14.771Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:14.887Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:14.916Z","title":"new title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:14.969Z","title":"updated title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:15.021Z","title":"fnlfnw"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:15.122Z","title":"updated title"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:56:18.909Z"}
+{"level":"info","message":"Starting ticket service","timestamp":"2025-02-02 13:56:19.041Z"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:20.084Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:20.100Z","title":"title"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:20.120Z","title":"Test ticket"}
+{"level":"info","message":"Creating a new ticket","price":20,"timestamp":"2025-02-02 13:56:20.139Z","title":"Test ticket"}

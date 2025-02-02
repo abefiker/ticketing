@@ -1,9 +1,9 @@
 import request from 'supertest';
 import { app } from '../../app';
 import mongoose from 'mongoose';
-it('returns 204 if the ticket is with no content', async () => {
+it('returns 404 if the ticket is with not found', async () => {
   const id = new mongoose.Types.ObjectId().toHexString(); // Generate valid ObjectId
-  await request(app).get(`/api/tickets/${id}`).send().expect(204);
+  await request(app).get(`/api/tickets/${id}`).send().expect(404);
 });
 it('returns the ticket if the ticket is found', async () => {
   const title = 'title';
