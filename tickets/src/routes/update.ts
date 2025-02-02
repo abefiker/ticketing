@@ -4,6 +4,7 @@ import { body } from 'express-validator';
 import { TicketUpdatedPublisher } from '../events/publisher/ticket-updated-publisher';
 import { natsWrapper } from '../nats-wrapper';
 import {
+  BadRequestError,
   NotAuthorizedError,
   NotFoundError,
   requireAuth,
@@ -28,6 +29,9 @@ router.put(
     const ticket = await Ticket.findById(id);
     if (!ticket) {
       throw new NotFoundError();
+    }
+    if (ticket.orderId) {
+      throw new BadRequestError('Cannot edit reserved ticket');
     }
     if (ticket.userId !== req.currentUser!.id) {
       throw new NotAuthorizedError();
