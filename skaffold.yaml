@@ -15,7 +15,7 @@ build:
       sync:
         manual:
           - src: 'src/**/*.ts'
-            dest: . 
+            dest: .
     - image: ab1994/tickets
       context: tickets
       docker:
@@ -31,7 +31,15 @@ build:
       sync:
         manual:
           - src: 'src/**/*.ts'
-            dest: .        
+            dest: .
+    - image: ab1994/expiration
+      context: expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
     - image: ab1994/client
       context: client
       docker:
