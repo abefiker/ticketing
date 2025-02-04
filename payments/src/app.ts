@@ -8,7 +8,7 @@ import {
   NotFoundError,
   logger,
 } from '@abticketing21/common';
-
+import { createChargeRouter } from './routes/new';
 const app = express();
 
 app.set('trust proxy', true);
@@ -22,7 +22,8 @@ app.use(
 );
 
 app.use(currentUser);
-logger.info('Starting ticket service');
+app.use(createChargeRouter);
+logger.info('Starting payment service');
 
 app.all('*', async (reqRequest, res: Response) => {
   throw new NotFoundError();
