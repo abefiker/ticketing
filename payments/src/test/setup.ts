@@ -8,7 +8,7 @@ let mongo: MongoMemoryServer; // Reference to the in-memory MongoDB instance
 // Extend the global type declaration
 declare global {
   // sourcery skip: avoid-using-var
-  var signin: () => string[]; // Add `signin` to the global scope
+  var signin: (id?: string) => string[]; // Add `signin` to the global scope
 }
 export {};
 
@@ -46,9 +46,9 @@ afterAll(async () => {
 });
 
 // Define the global `signin` function for test authentication
-global.signin = () => {
+global.signin = (id?: string) => {
   const payload = {
-    id: new mongoose.Types.ObjectId().toHexString(),
+    id: id || new mongoose.Types.ObjectId().toHexString(),
     email: 'test@test.com',
   };
 
