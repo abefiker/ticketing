@@ -25,8 +25,8 @@ AppComponent.getInitialProps = async (appContext) => {
         data.currentUser
       );
     }
-    console.log(pageProps);
-    console.log('User data:', data);
+    // console.log(pageProps);
+    // console.log('User data:', data);
     return { pageProps, ...data }; // Ensure data is returned as an object
   } catch (error) {
     console.error(
