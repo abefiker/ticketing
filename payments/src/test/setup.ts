@@ -11,7 +11,8 @@ declare global {
   var signin: (id?: string) => string[]; // Add `signin` to the global scope
 }
 export {};
-
+process.env.STRIPE_KEY =
+  'sk_test_51PBLwRRxfJmQzfZiemgqGrzO5WJcqNqFPxMumjGkOUAJ2JNEolOsCNeBLFhjNZFiXCiUd1Wk78szuEBNXwurNQ3m00UxJoOFCr';
 // Run before all tests
 beforeAll(async () => {
   // Start the in-memory MongoDB server

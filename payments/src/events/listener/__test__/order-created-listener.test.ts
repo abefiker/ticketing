@@ -27,12 +27,12 @@ const setup = async () => {
 
 it('replicates the order info', async () => {
   const { listener, data, msg } = await setup();
-  listener.onMessage(data, msg);
+  await listener.onMessage(data, msg);
   const order = await Order.findById(data.id);
   expect(order!.price).toEqual(data.ticket.price);
 });
 it('ack the message', async () => {
   const { listener, data, msg } = await setup();
-  listener.onMessage(data, msg);
+  await listener.onMessage(data, msg);
   expect(msg.ack).toHaveBeenCalled();
 });

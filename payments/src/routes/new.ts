@@ -7,6 +7,7 @@ import {
   BadRequestError,
   NotAuthorizedError,
 } from '@abticketing21/common';
+import { stripe } from '../stripe';
 import { Order } from '../models/order';
 import { OrderStatus } from '@abticketing21/common';
 const router = express.Router();
@@ -27,7 +28,13 @@ router.post(
     if (order.status === OrderStatus.Cancelled) {
       throw new BadRequestError('can not pay for cancelled order');
     }
-    res.send({ success: true });
+    // for test purpose i can set source: 'tok_visa',
+    await stripe.charges.create({
+      amount: order.price * 100,
+      currency: 'usd',
+      source: token,
+    });
+    res.status(201).send({ success: true });
   }
 );
 export { router as createChargeRouter };
