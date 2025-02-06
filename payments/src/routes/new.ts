@@ -10,6 +10,7 @@ import {
 import { stripe } from '../stripe';
 import { Order } from '../models/order';
 import { OrderStatus } from '@abticketing21/common';
+import { Payment } from '../models/payment';
 const router = express.Router();
 router.post(
   '/api/payments',
@@ -29,11 +30,16 @@ router.post(
       throw new BadRequestError('can not pay for cancelled order');
     }
     // for test purpose i can set source: 'tok_visa',
-    await stripe.charges.create({
+    const charge = await stripe.charges.create({
       amount: order.price * 100,
       currency: 'usd',
       source: token,
     });
+    const payment = Payment.build({
+      orderId,
+      stripeId: charge.id,
+    });
+    await payment.save();
     res.status(201).send({ success: true });
   }
 );
