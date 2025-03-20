@@ -30,7 +30,7 @@ app.use(indexTicketRouter);
 app.use(showTicketRouter);
 app.use(createTicketRouter);
 app.use(updateTicketRouter);
-app.all('*', async (reqRequest, res: Response) => {
+app.all('*', async (req: Request, res: Response) => {
   throw new NotFoundError();
 });
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {

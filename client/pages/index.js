@@ -1,7 +1,9 @@
 import Link from 'next/link';
 const LandingPage = ({ currentUser, tickets }) => {
-  const ticketList = tickets.map((ticket) => {
-    return (
+  console.log(tickets);
+  console.log(currentUser);
+  const ticketList = tickets?.length > 0
+    ? tickets.map((ticket) => (
       <tr key={ticket.id}>
         <td>{ticket.title}</td>
         <td>{ticket.price}</td>
@@ -11,9 +13,11 @@ const LandingPage = ({ currentUser, tickets }) => {
           </Link>
         </td>
       </tr>
-    );
-  });
-  console.log(tickets);
+    ))
+    : <tr><td colSpan="3">No tickets found</td></tr>;
+
+
+
   return (
     <div>
       <h1>Tickets</h1>
@@ -33,7 +37,7 @@ const LandingPage = ({ currentUser, tickets }) => {
 
 LandingPage.getInitialProps = async (context, client, currentUser) => {
   const { data } = await client.get('/api/tickets');
-  return { tickets: data };
+  return { tickets: data, currentUser };
 };
 
 export default LandingPage;
